@@ -1,7 +1,14 @@
-.bg-gray {
-  background: lightgray;
-  width: 89%;
-  height: 98vh;
-  margin: 0px auto;
-  border-radius: 15px;
+::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fdd835;
+  border-radius: 50px;
 }
