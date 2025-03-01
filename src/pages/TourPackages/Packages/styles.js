@@ -144,7 +144,7 @@ const getStyles = () => {
     
         Packagebtn: {
             backgroundColor: '#FEC508',
-            color: '#000',
+            color: '#fff',
             padding: '10px 20px',
             border: 'none',
             borderRadius: '5px',

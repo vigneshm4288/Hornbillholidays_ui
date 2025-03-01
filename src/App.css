@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 4px;
@@ -11,4 +19,15 @@
 ::-webkit-scrollbar-thumb {
   background: #fdd835;
   border-radius: 50px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fdd835 !important;
+  transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #fdd835 !important;
 }

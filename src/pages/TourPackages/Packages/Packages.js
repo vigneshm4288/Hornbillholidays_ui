@@ -65,11 +65,11 @@ const Packages = () => {
           spacing={5}
         >
 
-          {destinations.map((field, index) => (
-            <Grid item xs={12} sm={12} md={4} lg={4}>
+          {destinations && destinations.map((field, index) => (
+            <Grid item xs={12} sm={12} md={4} lg={4} key={index}>
 
               <>
-                <div class="card">
+                <div class="card" style={{height:'auto'}}>
                   <img style={styles.packageImg} src={field.image} alt={field.name} />
 
                   <Box>
